@@ -1,0 +1,43 @@
+{
+  "profile_id": "sz-historical-modal-v1",
+  "package_version": "2.0.0",
+  "source_report": {
+    "filename": "01_深圳市行测真题命题规律分析报告.pdf",
+    "sha256": "b4175c8f3eff95484eaf83cc851eef778b70ea2d860d8bfcca263d57dba607b3",
+    "pages": 64,
+    "chapter_pages": {
+      "5. 各模块": 4,
+      "9. 难度结构": 17,
+      "14. 高频": 24,
+      "16. 深圳行测": 29,
+      "18. 供其他": 31,
+      "19. 数据局限": 37
+    }
+  },
+  "sample": {
+    "years": [
+      2017,
+      2018,
+      2019,
+      2020,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "pdf_pages": 291,
+    "nominal_slots": 800,
+    "classified": 799,
+    "confirmed_primary_class": 783,
+    "partial": 16,
+    "missing": 1
+  },
+  "distribution_scope": "报告派生的统计、模板及规格；不含原扫描PDF、OCR全文、原题题干/选项或旧模拟卷。",
+  "limits": [
+    "并非下一年度官方大纲",
+    "难度与耗时是分析估计，不是实测",
+    "不附原卷，不能在新设备独立复证源报告全量统计",
+    "不保证与未知公开题库完全不同",
+    "模型能力影响生成质量，必须完成逐题复核"
+  ]
+}

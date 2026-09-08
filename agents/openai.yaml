@@ -1,0 +1,4 @@
+interface:
+  display_name: "深圳行测刷题应用"
+  short_description: "内置命题标准、逐题蓝图与校验工具，跨设备生成并复核深圳行测原创 HTML 模拟卷"
+  default_prompt: "使用 $shenzhen-xingce-html，按随包内置命题基准生成全新100题、90分钟的离线HTML刷题应用，逐题独立复核后交付。"

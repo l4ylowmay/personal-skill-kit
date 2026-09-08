@@ -1,0 +1,38 @@
+{
+  "package_version": "2.0.0",
+  "tested_at": "2026-09-08T23:39:48.041044",
+  "python_tests": {
+    "passed": 21,
+    "fixture": "artificial structural records, not a question quality benchmark"
+  },
+  "browser_checks": {
+    "passed": 39,
+    "browser": "Microsoft Edge / Playwright",
+    "offline": true,
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "fixture": "100 explicitly labeled artificial UI records, not a newly reviewed exam"
+  },
+  "portability": {
+    "copied_to_unrelated_directory": true,
+    "unicode_and_spaces_in_path": true,
+    "no_original_report_or_bank_read_by_runtime_tools": true,
+    "cli_build_passed": true,
+    "stale_review_rejected": true,
+    "actual_second_device_tested": false,
+    "other_operating_systems_tested": false
+  },
+  "visual_review": [
+    "320px figure and choices",
+    "375px wide table with inner scrolling",
+    "1440px inline answer and explanation"
+  ],
+  "limitations": [
+    "Semantic reasoning is not machine-certified",
+    "Full source-paper similarity requires separately supplied raw papers"
+  ]
+}

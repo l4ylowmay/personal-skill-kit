@@ -1,0 +1,2061 @@
+{
+  "profile_id": "sz-historical-modal-v1",
+  "version": "2.0.0",
+  "total": 100,
+  "minutes": 90,
+  "max_score": 100,
+  "modules": {
+    "公共基础知识": 20,
+    "判断推理": 20,
+    "数量关系": 15,
+    "言语理解与表达": 30,
+    "资料分析": 15
+  },
+  "difficulty": {
+    "易": 28,
+    "中": 67,
+    "难": 5
+  },
+  "secondary": {
+    "公共基础知识": {
+      "政治": 3,
+      "法律": 3,
+      "哲学": 1,
+      "经济": 2,
+      "时政": 2,
+      "人文": 2,
+      "公文": 2,
+      "管理": 1,
+      "科技": 1,
+      "深圳市情": 1,
+      "深圳法规": 1,
+      "深圳政策": 1
+    },
+    "判断推理": {
+      "图形推理": 5,
+      "事件排序": 5,
+      "条件推理": 2,
+      "削弱": 2,
+      "分析推理": 2,
+      "定义判断": 1,
+      "假设": 1,
+      "真假推理": 1,
+      "日常结论": 1
+    },
+    "数量关系": {
+      "数字推理": 5,
+      "数学运算": 10
+    },
+    "言语理解与表达": {
+      "逻辑填空": 10,
+      "语句表达": 10,
+      "细节理解": 7,
+      "词句理解": 1,
+      "主旨概括": 1,
+      "意图判断": 1
+    },
+    "资料分析": {
+      "基期量": 1,
+      "增长量": 1,
+      "增速比较": 1,
+      "比重": 1,
+      "综合判断": 4,
+      "比较": 2,
+      "平均数": 1,
+      "排序": 1,
+      "增长率": 3
+    }
+  },
+  "materials": {
+    "M1": 5,
+    "M2": 5,
+    "M3": 5
+  },
+  "slots": [
+    {
+      "number": 1,
+      "module": "公共基础知识",
+      "secondary_type": "政治",
+      "core_concept": "政治制度与基本理论",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-1"
+    },
+    {
+      "number": 2,
+      "module": "公共基础知识",
+      "secondary_type": "法律",
+      "core_concept": "民事与行政基本规则",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-2"
+    },
+    {
+      "number": 3,
+      "module": "公共基础知识",
+      "secondary_type": "哲学",
+      "core_concept": "因地制宜与具体分析",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-3"
+    },
+    {
+      "number": 4,
+      "module": "公共基础知识",
+      "secondary_type": "经济",
+      "core_concept": "激励与公共物品",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-4"
+    },
+    {
+      "number": 5,
+      "module": "公共基础知识",
+      "secondary_type": "时政",
+      "core_concept": "已发生且有官方记录的事实",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-5"
+    },
+    {
+      "number": 6,
+      "module": "公共基础知识",
+      "secondary_type": "人文",
+      "core_concept": "作品与文化常识",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-6"
+    },
+    {
+      "number": 7,
+      "module": "公共基础知识",
+      "secondary_type": "公文",
+      "core_concept": "文种适用及格式",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-7"
+    },
+    {
+      "number": 8,
+      "module": "公共基础知识",
+      "secondary_type": "管理",
+      "core_concept": "组织协调与管理职能",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-8"
+    },
+    {
+      "number": 9,
+      "module": "公共基础知识",
+      "secondary_type": "科技",
+      "core_concept": "稳定科学原理",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-9"
+    },
+    {
+      "number": 10,
+      "module": "公共基础知识",
+      "secondary_type": "政治",
+      "core_concept": "政治制度与基本理论",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-10"
+    },
+    {
+      "number": 11,
+      "module": "公共基础知识",
+      "secondary_type": "深圳市情",
+      "core_concept": "地方地理或城市事实",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": true,
+      "basis_ref": "baseline:slot-11"
+    },
+    {
+      "number": 12,
+      "module": "公共基础知识",
+      "secondary_type": "法律",
+      "core_concept": "民事与行政基本规则",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-12"
+    },
+    {
+      "number": 13,
+      "module": "公共基础知识",
+      "secondary_type": "公文",
+      "core_concept": "文种适用及格式",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-13"
+    },
+    {
+      "number": 14,
+      "module": "公共基础知识",
+      "secondary_type": "时政",
+      "core_concept": "已发生且有官方记录的事实",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-14"
+    },
+    {
+      "number": 15,
+      "module": "公共基础知识",
+      "secondary_type": "深圳法规",
+      "core_concept": "地方已生效规则的稳定内容",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": true,
+      "basis_ref": "baseline:slot-15"
+    },
+    {
+      "number": 16,
+      "module": "公共基础知识",
+      "secondary_type": "人文",
+      "core_concept": "作品与文化常识",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-16"
+    },
+    {
+      "number": 17,
+      "module": "公共基础知识",
+      "secondary_type": "政治",
+      "core_concept": "政治制度与基本理论",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-17"
+    },
+    {
+      "number": 18,
+      "module": "公共基础知识",
+      "secondary_type": "深圳政策",
+      "core_concept": "地方发展定位与制度安排",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": true,
+      "basis_ref": "baseline:slot-18"
+    },
+    {
+      "number": 19,
+      "module": "公共基础知识",
+      "secondary_type": "法律",
+      "core_concept": "民事与行政基本规则",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-19"
+    },
+    {
+      "number": 20,
+      "module": "公共基础知识",
+      "secondary_type": "经济",
+      "core_concept": "激励与公共物品",
+      "difficulty": "易",
+      "stem_length_target": [
+        45,
+        180
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-20"
+    },
+    {
+      "number": 21,
+      "module": "判断推理",
+      "secondary_type": "图形推理",
+      "core_concept": "图形数量",
+      "difficulty": "中",
+      "stem_length_target": [
+        10,
+        45
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-21"
+    },
+    {
+      "number": 22,
+      "module": "判断推理",
+      "secondary_type": "图形推理",
+      "core_concept": "图形位置",
+      "difficulty": "中",
+      "stem_length_target": [
+        10,
+        45
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-22"
+    },
+    {
+      "number": 23,
+      "module": "判断推理",
+      "secondary_type": "图形推理",
+      "core_concept": "图形复合",
+      "difficulty": "中",
+      "stem_length_target": [
+        10,
+        45
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-23"
+    },
+    {
+      "number": 24,
+      "module": "判断推理",
+      "secondary_type": "图形推理",
+      "core_concept": "图形数量",
+      "difficulty": "中",
+      "stem_length_target": [
+        10,
+        45
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-24"
+    },
+    {
+      "number": 25,
+      "module": "判断推理",
+      "secondary_type": "图形推理",
+      "core_concept": "图形复合",
+      "difficulty": "中",
+      "stem_length_target": [
+        10,
+        45
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-25"
+    },
+    {
+      "number": 26,
+      "module": "判断推理",
+      "secondary_type": "事件排序",
+      "core_concept": "设施建设流程",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        100
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-26"
+    },
+    {
+      "number": 27,
+      "module": "判断推理",
+      "secondary_type": "事件排序",
+      "core_concept": "生态修复因果链",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        100
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-27"
+    },
+    {
+      "number": 28,
+      "module": "判断推理",
+      "secondary_type": "事件排序",
+      "core_concept": "传统工艺过程",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        100
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-28"
+    },
+    {
+      "number": 29,
+      "module": "判断推理",
+      "secondary_type": "事件排序",
+      "core_concept": "研究项目流程",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        100
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-29"
+    },
+    {
+      "number": 30,
+      "module": "判断推理",
+      "secondary_type": "事件排序",
+      "core_concept": "历史文化事件",
+      "difficulty": "中",
+      "stem_length_target": [
+        45,
+        100
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-30"
+    },
+    {
+      "number": 31,
+      "module": "判断推理",
+      "secondary_type": "条件推理",
+      "core_concept": "条件推理：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-31"
+    },
+    {
+      "number": 32,
+      "module": "判断推理",
+      "secondary_type": "削弱",
+      "core_concept": "削弱：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-32"
+    },
+    {
+      "number": 33,
+      "module": "判断推理",
+      "secondary_type": "分析推理",
+      "core_concept": "分析推理：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-33"
+    },
+    {
+      "number": 34,
+      "module": "判断推理",
+      "secondary_type": "定义判断",
+      "core_concept": "定义判断：独立材料与有效逻辑",
+      "difficulty": "易",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-34"
+    },
+    {
+      "number": 35,
+      "module": "判断推理",
+      "secondary_type": "假设",
+      "core_concept": "假设：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-35"
+    },
+    {
+      "number": 36,
+      "module": "判断推理",
+      "secondary_type": "真假推理",
+      "core_concept": "真假推理：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-36"
+    },
+    {
+      "number": 37,
+      "module": "判断推理",
+      "secondary_type": "条件推理",
+      "core_concept": "条件推理：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-37"
+    },
+    {
+      "number": 38,
+      "module": "判断推理",
+      "secondary_type": "削弱",
+      "core_concept": "削弱：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-38"
+    },
+    {
+      "number": 39,
+      "module": "判断推理",
+      "secondary_type": "日常结论",
+      "core_concept": "日常结论：独立材料与有效逻辑",
+      "difficulty": "易",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-39"
+    },
+    {
+      "number": 40,
+      "module": "判断推理",
+      "secondary_type": "分析推理",
+      "core_concept": "分析推理：独立材料与有效逻辑",
+      "difficulty": "中",
+      "stem_length_target": [
+        90,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-40"
+    },
+    {
+      "number": 41,
+      "module": "数量关系",
+      "secondary_type": "数字推理",
+      "core_concept": "递推：相邻项变换",
+      "difficulty": "中",
+      "stem_length_target": [
+        15,
+        60
+      ],
+      "calculation_steps_target": [
+        1,
+        3
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-41"
+    },
+    {
+      "number": 42,
+      "module": "数量关系",
+      "secondary_type": "数字推理",
+      "core_concept": "幂次：整数变换",
+      "difficulty": "中",
+      "stem_length_target": [
+        15,
+        60
+      ],
+      "calculation_steps_target": [
+        1,
+        3
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-42"
+    },
+    {
+      "number": 43,
+      "module": "数量关系",
+      "secondary_type": "数字推理",
+      "core_concept": "数位：分组约束",
+      "difficulty": "中",
+      "stem_length_target": [
+        15,
+        60
+      ],
+      "calculation_steps_target": [
+        1,
+        3
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-43"
+    },
+    {
+      "number": 44,
+      "module": "数量关系",
+      "secondary_type": "数字推理",
+      "core_concept": "递推：多项关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        15,
+        60
+      ],
+      "calculation_steps_target": [
+        1,
+        3
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-44"
+    },
+    {
+      "number": 45,
+      "module": "数量关系",
+      "secondary_type": "数字推理",
+      "core_concept": "幂次：分数统一形式",
+      "difficulty": "中",
+      "stem_length_target": [
+        15,
+        60
+      ],
+      "calculation_steps_target": [
+        1,
+        3
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-45"
+    },
+    {
+      "number": 46,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "日期",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-46"
+    },
+    {
+      "number": 47,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "行程",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-47"
+    },
+    {
+      "number": 48,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "利润",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-48"
+    },
+    {
+      "number": 49,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "比例",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-49"
+    },
+    {
+      "number": 50,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "行程",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-50"
+    },
+    {
+      "number": 51,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "统筹",
+      "difficulty": "难",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-51"
+    },
+    {
+      "number": 52,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "最值",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-52"
+    },
+    {
+      "number": 53,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "几何",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-53"
+    },
+    {
+      "number": 54,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "排列组合",
+      "difficulty": "中",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-54"
+    },
+    {
+      "number": 55,
+      "module": "数量关系",
+      "secondary_type": "数学运算",
+      "core_concept": "不定方程",
+      "difficulty": "难",
+      "stem_length_target": [
+        80,
+        190
+      ],
+      "calculation_steps_target": [
+        2,
+        4
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-55"
+    },
+    {
+      "number": 56,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "实词",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-56"
+    },
+    {
+      "number": 57,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "成语",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-57"
+    },
+    {
+      "number": 58,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "混合填空",
+      "difficulty": "中",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-58"
+    },
+    {
+      "number": 59,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "实词",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-59"
+    },
+    {
+      "number": 60,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "关联词",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-60"
+    },
+    {
+      "number": 61,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "成语",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-61"
+    },
+    {
+      "number": 62,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "实词",
+      "difficulty": "中",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-62"
+    },
+    {
+      "number": 63,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "混合填空",
+      "difficulty": "中",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-63"
+    },
+    {
+      "number": 64,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "成语",
+      "difficulty": "易",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-64"
+    },
+    {
+      "number": 65,
+      "module": "言语理解与表达",
+      "secondary_type": "逻辑填空",
+      "core_concept": "实词",
+      "difficulty": "中",
+      "stem_length_target": [
+        100,
+        170
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-65"
+    },
+    {
+      "number": 66,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：主谓搭配",
+      "difficulty": "易",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-66"
+    },
+    {
+      "number": 67,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：成分残缺",
+      "difficulty": "中",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-67"
+    },
+    {
+      "number": 68,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：两面对一面",
+      "difficulty": "易",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-68"
+    },
+    {
+      "number": 69,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：歧义辨析",
+      "difficulty": "中",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-69"
+    },
+    {
+      "number": 70,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：并列搭配",
+      "difficulty": "易",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-70"
+    },
+    {
+      "number": 71,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：句式杂糅",
+      "difficulty": "中",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-71"
+    },
+    {
+      "number": 72,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：语义赘余",
+      "difficulty": "易",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-72"
+    },
+    {
+      "number": 73,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "病句：语序不当",
+      "difficulty": "中",
+      "stem_length_target": [
+        12,
+        35
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-73"
+    },
+    {
+      "number": 74,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "排序：时间与转折",
+      "difficulty": "中",
+      "stem_length_target": [
+        140,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-74"
+    },
+    {
+      "number": 75,
+      "module": "言语理解与表达",
+      "secondary_type": "语句表达",
+      "core_concept": "排序：指代与总分",
+      "difficulty": "中",
+      "stem_length_target": [
+        140,
+        240
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": null,
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-75"
+    },
+    {
+      "number": 76,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "历史文化",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-76"
+    },
+    {
+      "number": 77,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "自然科学",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-77"
+    },
+    {
+      "number": 78,
+      "module": "言语理解与表达",
+      "secondary_type": "词句理解",
+      "core_concept": "词句理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "文学艺术",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-78"
+    },
+    {
+      "number": 79,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "应用科技",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-79"
+    },
+    {
+      "number": 80,
+      "module": "言语理解与表达",
+      "secondary_type": "主旨概括",
+      "core_concept": "主旨概括：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "社会生活",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-80"
+    },
+    {
+      "number": 81,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "历史文化",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-81"
+    },
+    {
+      "number": 82,
+      "module": "言语理解与表达",
+      "secondary_type": "意图判断",
+      "core_concept": "意图判断：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "法律治理",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-82"
+    },
+    {
+      "number": 83,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "生态环境",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-83"
+    },
+    {
+      "number": 84,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "文学艺术",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-84"
+    },
+    {
+      "number": 85,
+      "module": "言语理解与表达",
+      "secondary_type": "细节理解",
+      "core_concept": "细节理解：定位与限定关系",
+      "difficulty": "中",
+      "stem_length_target": [
+        190,
+        320
+      ],
+      "calculation_steps_target": [
+        0,
+        0
+      ],
+      "theme": "教育",
+      "material_group": null,
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-85"
+    },
+    {
+      "number": 86,
+      "module": "资料分析",
+      "secondary_type": "基期量",
+      "core_concept": "基期量",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M1",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-86"
+    },
+    {
+      "number": 87,
+      "module": "资料分析",
+      "secondary_type": "增长量",
+      "core_concept": "增长量",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M1",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-87"
+    },
+    {
+      "number": 88,
+      "module": "资料分析",
+      "secondary_type": "增速比较",
+      "core_concept": "增速比较",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M1",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-88"
+    },
+    {
+      "number": 89,
+      "module": "资料分析",
+      "secondary_type": "比重",
+      "core_concept": "比重",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M1",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-89"
+    },
+    {
+      "number": 90,
+      "module": "资料分析",
+      "secondary_type": "综合判断",
+      "core_concept": "综合判断",
+      "difficulty": "难",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M1",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-90"
+    },
+    {
+      "number": 91,
+      "module": "资料分析",
+      "secondary_type": "比较",
+      "core_concept": "比较",
+      "difficulty": "易",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M2",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-91"
+    },
+    {
+      "number": 92,
+      "module": "资料分析",
+      "secondary_type": "平均数",
+      "core_concept": "平均数",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M2",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-92"
+    },
+    {
+      "number": 93,
+      "module": "资料分析",
+      "secondary_type": "排序",
+      "core_concept": "排序",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M2",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-93"
+    },
+    {
+      "number": 94,
+      "module": "资料分析",
+      "secondary_type": "综合判断",
+      "core_concept": "综合判断",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M2",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-94"
+    },
+    {
+      "number": 95,
+      "module": "资料分析",
+      "secondary_type": "综合判断",
+      "core_concept": "综合判断",
+      "difficulty": "难",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M2",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-95"
+    },
+    {
+      "number": 96,
+      "module": "资料分析",
+      "secondary_type": "增长率",
+      "core_concept": "增长率",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M3",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-96"
+    },
+    {
+      "number": 97,
+      "module": "资料分析",
+      "secondary_type": "增长率",
+      "core_concept": "增长率",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M3",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-97"
+    },
+    {
+      "number": 98,
+      "module": "资料分析",
+      "secondary_type": "比较",
+      "core_concept": "比较",
+      "difficulty": "易",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M3",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-98"
+    },
+    {
+      "number": 99,
+      "module": "资料分析",
+      "secondary_type": "增长率",
+      "core_concept": "增长率",
+      "difficulty": "中",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M3",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-99"
+    },
+    {
+      "number": 100,
+      "module": "资料分析",
+      "secondary_type": "综合判断",
+      "core_concept": "综合判断",
+      "difficulty": "难",
+      "stem_length_target": [
+        20,
+        75
+      ],
+      "calculation_steps_target": [
+        1,
+        4
+      ],
+      "theme": null,
+      "material_group": "M3",
+      "requires_local_knowledge": false,
+      "basis_ref": "baseline:slot-100"
+    }
+  ],
+  "material_specs": [
+    {
+      "id": "M1",
+      "form": "文字",
+      "questions": [
+        86,
+        87,
+        88,
+        89,
+        90
+      ],
+      "characters": [
+        580,
+        750
+      ],
+      "numeric_design": "约25—45个有效数据，整数和1—2位小数混合，含现期/基期、增长/下降、部分/整体；两个单位须显式换算",
+      "local_theme": false
+    },
+    {
+      "id": "M2",
+      "form": "柱线混合图",
+      "questions": [
+        91,
+        92,
+        93,
+        94,
+        95
+      ],
+      "periods": 6,
+      "indicators": 3,
+      "numeric_design": "6个年度，两个总量柱和一个相关率或平均指标折线；轴/图例/单位清楚",
+      "local_theme": true
+    },
+    {
+      "id": "M3",
+      "form": "表格",
+      "questions": [
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "numeric_design": "6—10行×6—8数值列，2期或多个年度；不整齐数据、多指标交叉；可附单位注释",
+      "local_theme": false,
+      "rows": 8,
+      "numeric_columns": 6
+    }
+  ],
+  "local_knowledge_count": 3,
+  "current_affairs_count": 2,
+  "answer_distribution_target": {
+    "A": [
+      23,
+      27
+    ],
+    "B": [
+      23,
+      27
+    ],
+    "C": [
+      23,
+      27
+    ],
+    "D": [
+      23,
+      27
+    ]
+  },
+  "answer_run_max": 3,
+  "time_allocation_minutes": {
+    "公共基础知识": 10,
+    "判断推理": 18,
+    "数量关系": 17,
+    "言语理解与表达": 23,
+    "资料分析": 20,
+    "涂卡与机动": 2
+  },
+  "total_reading_target": [
+    15000,
+    18000
+  ],
+  "reading_note": "题干与四选项加共享材料一次；图形数据的视觉读取不以字符数充分代表。纯全文可搜索正文的量可略低于OCR含图标签的源卷量，偏差须说明。",
+  "structure_selection": "八套均为100题90分钟。2017—2020的20/20/15/30/15模块结构出现4套；2022—2024的25/20/15/25/15出现3套；2025六模块15/15/20/10/25/15出现1套。采用出现最多的历史结构，明确不将其宣称为下一年度官方结构。2020原书第7题缺题，但全卷题位及模块边界可确认。",
+  "knowledge_slots_policy": "二级题型、题位难度及强度保持；core_concept为模型提示，theme为可轮换题材，不要求重用旧题事实。"
+}
