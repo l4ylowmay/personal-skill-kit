@@ -6,6 +6,8 @@
 [{"number":1,"module":"公共基础知识","secondary_type":"法律","core_concept":"具体主考点","difficulty":"中","stem":"完整题干","options":["选项一","选项二","选项三","选项四"],"answer":"B","explanation":"完整解析","material_group":null,"basis_ref":"报告第X页：题型模式","sources":[]}]
 ```
 
+`explanation` 保存用户可见的完整解题过程，默认尽量包含最终 A/B/C/D 各项的判断理由，按 [逐项解析规范](question-quality.md) 编写。保留现有字符串格式即可；内部 `wrong_option_reasons` 不会自动展示，须把经复核的排错理由写入 `explanation`。
+
 可添加 `graphic`、计算/推理步骤、实际长度、干扰机制、来源核验日期、选项 ID 和质量复核记录。图形选项也提供不同的可访问标签，不能四项均写“见图”。`basis_ref` 标识命题标准，`sources` 标识现实事实出处；二者不是同一件事。
 
 `blueprint.json` 无需手工拼凑示意配额：默认复制 `standards/blueprint.json` 的完整100题蓝图。外部模式必须转换为相同结构。`modules` 的JSON顺序定义模块顺序；`secondary` 是每个模块到二级题型配额的完整映射；`materials` 是组ID到题数的映射，完整规格在 `material_specs`。
