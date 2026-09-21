@@ -1,6 +1,6 @@
 {
   "profile_id": "sz-historical-modal-v1",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "total": 100,
   "minutes": 90,
   "max_score": 100,
@@ -456,7 +456,7 @@
       "number": 21,
       "module": "判断推理",
       "secondary_type": "图形推理",
-      "core_concept": "图形数量",
+      "core_concept": "待选：来源支持且与同卷其他题有实质区别的图形规律",
       "difficulty": "中",
       "stem_length_target": [
         10,
@@ -475,7 +475,7 @@
       "number": 22,
       "module": "判断推理",
       "secondary_type": "图形推理",
-      "core_concept": "图形位置",
+      "core_concept": "待选：来源支持且与同卷其他题有实质区别的图形规律",
       "difficulty": "中",
       "stem_length_target": [
         10,
@@ -494,7 +494,7 @@
       "number": 23,
       "module": "判断推理",
       "secondary_type": "图形推理",
-      "core_concept": "图形复合",
+      "core_concept": "待选：来源支持且与同卷其他题有实质区别的图形规律",
       "difficulty": "中",
       "stem_length_target": [
         10,
@@ -513,7 +513,7 @@
       "number": 24,
       "module": "判断推理",
       "secondary_type": "图形推理",
-      "core_concept": "图形数量",
+      "core_concept": "待选：来源支持且与同卷其他题有实质区别的图形规律",
       "difficulty": "中",
       "stem_length_target": [
         10,
@@ -532,7 +532,7 @@
       "number": 25,
       "module": "判断推理",
       "secondary_type": "图形推理",
-      "core_concept": "图形复合",
+      "core_concept": "待选：来源支持且与同卷其他题有实质区别的图形规律",
       "difficulty": "中",
       "stem_length_target": [
         10,
@@ -551,7 +551,7 @@
       "number": 26,
       "module": "判断推理",
       "secondary_type": "事件排序",
-      "core_concept": "设施建设流程",
+      "core_concept": "待选：事件因果/状态/依赖关系，避免题干直接给出完整顺序",
       "difficulty": "中",
       "stem_length_target": [
         45,
@@ -570,7 +570,7 @@
       "number": 27,
       "module": "判断推理",
       "secondary_type": "事件排序",
-      "core_concept": "生态修复因果链",
+      "core_concept": "待选：事件因果/状态/依赖关系，避免题干直接给出完整顺序",
       "difficulty": "中",
       "stem_length_target": [
         45,
@@ -589,7 +589,7 @@
       "number": 28,
       "module": "判断推理",
       "secondary_type": "事件排序",
-      "core_concept": "传统工艺过程",
+      "core_concept": "待选：事件因果/状态/依赖关系，避免题干直接给出完整顺序",
       "difficulty": "中",
       "stem_length_target": [
         45,
@@ -608,7 +608,7 @@
       "number": 29,
       "module": "判断推理",
       "secondary_type": "事件排序",
-      "core_concept": "研究项目流程",
+      "core_concept": "待选：事件因果/状态/依赖关系，避免题干直接给出完整顺序",
       "difficulty": "中",
       "stem_length_target": [
         45,
@@ -627,7 +627,7 @@
       "number": 30,
       "module": "判断推理",
       "secondary_type": "事件排序",
-      "core_concept": "历史文化事件",
+      "core_concept": "待选：事件因果/状态/依赖关系，避免题干直接给出完整顺序",
       "difficulty": "中",
       "stem_length_target": [
         45,
@@ -2057,5 +2057,14 @@
   ],
   "reading_note": "题干与四选项加共享材料一次；图形数据的视觉读取不以字符数充分代表。纯全文可搜索正文的量可略低于OCR含图标签的源卷量，偏差须说明。",
   "structure_selection": "八套均为100题90分钟。2017—2020的20/20/15/30/15模块结构出现4套；2022—2024的25/20/15/25/15出现3套；2025六模块15/15/20/10/25/15出现1套。采用出现最多的历史结构，明确不将其宣称为下一年度官方结构。2020原书第7题缺题，但全卷题位及模块边界可确认。",
-  "knowledge_slots_policy": "二级题型、题位难度及强度保持；core_concept为模型提示，theme为可轮换题材，不要求重用旧题事实。"
+  "knowledge_slots_policy": "模块、二级题型配额、题位难度及强度保持；core_concept和theme仅为候选示例，须依据来源与可用历史轮换细考点和求解骨架，先选本卷方案再冻结。详见references/diversity-and-blueprint.md。",
+  "generation_quality_policy": {
+    "reference": "references/diversity-and-blueprint.md",
+    "basis": "用户质量反馈形成的生成约束，不是源样本统计",
+    "simple_direct_count_graphics_max": 1,
+    "fixed_graphic_family_quota": false,
+    "sequence_answer_chain_in_stem": "reject",
+    "surface_only_variants": "reject",
+    "required_review_artifact": "work/diversity-review.json"
+  }
 }
